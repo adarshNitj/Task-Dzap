@@ -1,0 +1,41 @@
+
+.disperseForm>form{
+    /* font-weight:bold; */
+    width: 60%; 
+    height: 70vh;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+.disperseForm_input{
+  display: flex ; 
+  flex-direction: column;
+  height: 100%;
+  width: 96%;
+}
+.disperseForm_input>textarea{
+    height: 100%;
+    width: 100%;
+    background-color: #eef3f8;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+.error_box{
+  background-color: white;
+  font-size: 15px;
+  color: red;
+  height:8vh ;
+  width: 60%;
+  margin: 15px 0 10px 10px;
+  border-style:solid;
+  border-radius: 8px;
+}
+.error_box>p{
+  text-align: left;
+  margin-left: 15px;
+}
